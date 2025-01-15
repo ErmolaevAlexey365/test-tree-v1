@@ -1,17 +1,11 @@
 .sider {
-    overflow: auto;
     height: 100vh;
-    position: fixed;
-    inset-inline-start: 0;
-    top: 0;
-    bottom: 0;
-    scrollbar-width: thin;
 }
 
 .menu {
     margin-top: 64px;
 }
 
-.layout {
-    margin-inline-start: 200px;
+.outletWrapper {
+    padding: 20px;
 }

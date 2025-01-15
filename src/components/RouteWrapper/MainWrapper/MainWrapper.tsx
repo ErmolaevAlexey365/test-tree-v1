@@ -14,22 +14,20 @@ const items: MenuProps['items'] = [
   },
 ];
 
-const MainWrapper = () => {
-  console.log('div');
-
-  return (
-    <Layout hasSider>
-      <Sider className={styles.sider}>
-        <Menu className={styles.menu} theme="dark" mode="inline" defaultSelectedKeys={['demo']} items={items} />
-      </Sider>
-      <Layout className={styles.layout}>
-        <Header />
-        <Content style={{ margin: '24px 16px 0', overflow: 'initial' }}>
+const MainWrapper = () => (
+  <Layout hasSider>
+    <Sider className={styles.sider} breakpoint="lg" collapsedWidth="60" collapsed>
+      <Menu className={styles.menu} theme="dark" mode="inline" defaultSelectedKeys={['demo']} items={items} />
+    </Sider>
+    <Layout className={styles.layout}>
+      <Header />
+      <Content className={styles.content}>
+        <div className={styles.outletWrapper}>
           <Outlet />
-        </Content>
-      </Layout>
+        </div>
+      </Content>
     </Layout>
-  );
-};
+  </Layout>
+);
 
 export default MainWrapper;
