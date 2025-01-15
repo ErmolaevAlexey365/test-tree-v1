@@ -1,0 +1,11 @@
+html {
+    font-family: "Space Grotesk", serif !important;
+    background: linear-gradient(0deg, rgba(243, 245, 248, 0.5) 0%, rgba(243, 245, 248, 0.5) 100%), #f6f6fa;
+    scroll-behavior: smooth;
+    scroll-padding: 100px;
+
+    body,
+    p {
+        margin: 0;
+    }
+}

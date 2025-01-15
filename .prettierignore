@@ -1,0 +1,8 @@
+dist
+
+.eslintrc
+.eslintignore
+.gitignore
+.prettierignore
+
+src/images

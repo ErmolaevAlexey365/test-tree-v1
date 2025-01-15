@@ -1,0 +1,17 @@
+.treeNodeTitle {
+    &:hover .actionGroup {
+        display: flex;
+    }
+}
+
+.actionGroup {
+    display: none;
+}
+
+.treeDataRoot {
+    :global {
+        .ant-tree-node-selected .ant-tree-title .ant-flex :last-child {
+            display: flex !important;
+        }
+    }
+}

@@ -1,0 +1,14 @@
+# Editors
+.DS_STORE
+.idea
+*.iml
+.vscode
+/.vs
+
+# Auto generated
+dist/
+node_modules/
+*.log*
+.eslintcache
+.history
+.env
